@@ -1,0 +1,5 @@
+h1 Uploaded files
+
+- @result.each do |file|
+  h1= file[:original_name]
+  code= "https://#{ENV['APP_HOST']}/#{file[:new_name]}"

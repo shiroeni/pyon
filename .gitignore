@@ -1,0 +1,5 @@
+public/files/*
+!public/files/.gitkeep
+.ruby-version
+.idea
+.vscode
